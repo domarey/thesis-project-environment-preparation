@@ -24,3 +24,8 @@ mkdir build && cd build
 cmake ../ -DFORCE_RSUSB_BACKEND=false -DBUILD_PYTHON_BINDINGS=true -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true -DBUILD_WITH_CUDA:bool=true
 sudo make uninstall && make clean && make && sudo make install
 ```
+
+Import pyrealsense2 using:
+```
+import pyrealsense2.pyrealsense2 as rs
+```
