@@ -2,13 +2,14 @@
 Guide installation of intelrealsense in Jetson Orin Nano Developer kit. 
 For Pyhton 3.8
 
+```
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install -y --no-install-recommends \
     python3 \
     python3-setuptools \
     python3-pip \
     python3-dev
-
+```
 sudo apt-get install -y git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev
 
 sudo apt-get install -y libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
