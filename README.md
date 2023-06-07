@@ -35,5 +35,5 @@ import pyrealsense2.pyrealsense2 as rs
 ```
 sudo apt-get install ros-$ROS_DISTRO-respeaker-ros
 ```
-2. Change the paths in the 2 files in /home/ppm/catkin_ws/devel/lib/respeaker_ros to point the python executable and the correct files under src
+2. Change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` to point the python executable and the correct files under `/src`
 
