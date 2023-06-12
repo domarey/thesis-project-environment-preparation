@@ -1,4 +1,4 @@
-# Installation: Intel Realsense SDK
+# Intel Realsense SDK
 Guide installation of intelrealsense in Jetson Orin Nano Developer kit. 
 For Pyhton 3.8
 
@@ -30,10 +30,19 @@ Import pyrealsense2 using:
 import pyrealsense2.pyrealsense2 as rs
 ```
 
-# Installation: respeaker-ros
+# respeaker-ros
 1. Installation guide: https://index.ros.org/p/respeaker_ros/
 ```
 sudo apt-get install ros-noetic-respeaker-ros
 ```
 2. Change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`
+# tensorflow for Jetson
+Create environment:
+```
+python -m venv $ENV_NAME
+```
+This will create a folder named $ENV_NAME. Source (activate) it:
+```
+source $ENV_NAME/bin/activate
+```
 
