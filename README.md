@@ -45,4 +45,8 @@ This will create a folder named $ENV_NAME. Source (activate) it:
 ```
 source $ENV_NAME/bin/activate
 ```
-
+Required packages here:
+and then install Tensorlow using:
+```
+sudo pip3 uninstall  tensorflow==2.11.0+nv23.01
+```
