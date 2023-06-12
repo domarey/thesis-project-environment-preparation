@@ -59,3 +59,4 @@ to see the "Location" of the package and add it to the python path. It should be
 ```
 export PYTHONPATH=/usr/local/lib/python3.8/dist-packages:$PYTHONPATH
 ```
+To automatically execute this command, just append it to the `$env-name/bin/activate` file (as if it was the `.bashrc` file)
