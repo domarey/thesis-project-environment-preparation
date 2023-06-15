@@ -3,7 +3,11 @@
 ```
 sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
 ```
-2. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
+2. Change it as the default version:
+   ```
+   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 1
+   ```
+4. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
 Then follow the guide: 
 # Intel Realsense SDK
 Guide installation of intelrealsense in Jetson Orin Nano Developer kit. 
