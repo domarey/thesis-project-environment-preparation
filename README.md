@@ -5,7 +5,7 @@
    ```
 2. Change it as the default version:
    ```
-   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 1
+   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
    ```
 3. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
 Then follow the guide: 
