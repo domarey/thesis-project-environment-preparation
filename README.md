@@ -43,11 +43,19 @@ import pyrealsense2.pyrealsense2 as rs
 # ROS
 Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
 # respeaker-ros
-1. Installation guide: https://index.ros.org/p/respeaker_ros/
+1. Install (do **NOT** follow https://index.ros.org/p/respeaker_ros/ attached only for reference)
 ```
 sudo apt-get install ros-noetic-respeaker-ros
 ```
-2. Change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`
+2. Install prerequisites:
+   ```
+   sudo apt-get install ros-noetic-audio-common
+   sudo apt-get install python3-pyaudio
+   sudo pip install pixel-ring
+   sudo pip install SpeechRecognition
+   
+   ```
+4. Change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`
 # tensorflow for Jetson
 Create environment:
 ```
