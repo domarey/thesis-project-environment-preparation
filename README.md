@@ -29,7 +29,8 @@ Import pyrealsense2 using:
 ```
 import pyrealsense2.pyrealsense2 as rs
 ```
-
+# ROS
+Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
 # respeaker-ros
 1. Installation guide: https://index.ros.org/p/respeaker_ros/
 ```
