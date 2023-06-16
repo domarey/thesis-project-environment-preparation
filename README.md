@@ -63,7 +63,7 @@ Required packages here: https://docs.nvidia.com/deeplearning/frameworks/install-
 
 and then install Tensorlow using:
 ```
-sudo pip3 uninstall  tensorflow==2.12.0 # +nv23.01
+pip3 install tensorflow==2.12.0 # +nv23.01
 ```
 If the installation succeeded but still importing tensorflow gives errors, use:
 ```
