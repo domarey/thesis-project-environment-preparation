@@ -50,6 +50,8 @@ Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
    ```
 2. Build from **source**: https://index.ros.org/p/respeaker_ros/
    (If installed the package using apt-get and there are problems try: change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`)
+# intel realsense-ros
+
 # tensorflow for Jetson
 Create environment:
 ```
