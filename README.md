@@ -4,9 +4,9 @@
    sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
    ```
 2. Change it as the default version:
-   ```
+   ´´´
    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
-   ```
+   ´´´
 3. Install pip3:
    ´´´
    sudo apt-get -y install python3-pip
