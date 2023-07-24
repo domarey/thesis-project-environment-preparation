@@ -7,8 +7,12 @@
    ```
    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
    ```
-3. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
-4. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
+3. Install pip3:
+   ´´´
+   sudo apt-get -y install python3-pip
+   ´´´
+4. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
+5. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
 # Intel Realsense SDK
 **DISCONNECT the camera**
 Guide installation of intelrealsense in Jetson Orin Nano Developer kit. 
