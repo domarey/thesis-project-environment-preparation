@@ -16,7 +16,7 @@ Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
    ```
    - ros pkgs:
    ```
-   sudo apt-get install ros-noetic-sound-play sudo apt-get install ros-$ROS_DISTRO-speech-recognition-msgs
+   sudo apt-get install ros-noetic-sound-play ros-$ROS_DISTRO-speech-recognition-msgs
 
    ```
 3. Build from **source**: https://index.ros.org/p/respeaker_ros/
