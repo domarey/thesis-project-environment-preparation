@@ -6,13 +6,19 @@ Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
 
 # respeaker-ros
 1. Not listed prerequisites:
+   - pip:
    ```
-   sudo pip install testresources
+   sudo pip install testresources pixel-ring speechrecognition
    ```
+   - system-wide
    ```
    sudo apt-get install python3-pyaudio
    ```
-2. Build from **source**: https://index.ros.org/p/respeaker_ros/
+   - ros pkgs:
+   ```
+   sudo apt-get install ros-noetic-sound-play
+   ```
+3. Build from **source**: https://index.ros.org/p/respeaker_ros/
    (If installed the package using apt-get and there are problems try: change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`)
 # intel realsense-ros
 
