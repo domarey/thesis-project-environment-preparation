@@ -83,8 +83,12 @@ Import pyrealsense2 using:
 ```
 import pyrealsense2.pyrealsense2 as rs
 ```
-# Install pyhont 3.8 and OpenPose
-1. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
+# Install OpenPose
+1. Install prerequisites:
+```
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+```
+And: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
 2. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
 
 # tensorflow for Jetson
