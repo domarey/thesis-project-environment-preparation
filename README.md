@@ -1,3 +1,16 @@
+# Install Python 3.8
+1. Install python 3.8
+   ```
+   sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
+   ```
+2. Change it as the default version:
+   ```
+   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
+   ```
+3. Install pip3:
+   ```
+   sudo apt-get -y install python3-pip
+   ```
 # Install ros
 Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
 
@@ -71,20 +84,8 @@ Import pyrealsense2 using:
 import pyrealsense2.pyrealsense2 as rs
 ```
 # Install pyhont 3.8 and OpenPose
-1. Install python 3.8
-   ```
-   sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
-   ```
-2. Change it as the default version:
-   ```
-   sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
-   ```
-3. Install pip3:
-   ```
-   sudo apt-get -y install python3-pip
-   ```
-4. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
-5. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
+1. Install prerequisites: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
+2. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
 
 # tensorflow for Jetson
 Create environment:
