@@ -17,12 +17,16 @@ Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
    - ros pkgs:
    ```
    sudo apt-get install ros-noetic-sound-play ros-$ROS_DISTRO-speech-recognition-msgs ros-$ROS_DISTRO-catkin-virtualenv
-
    ```
 3. Build from **source**: https://index.ros.org/p/respeaker_ros/
    (If installed the package using apt-get and there are problems try: change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`)
 # intel realsense-ros
-
+```
+sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
+```
+```
+source devel/setup.bash
+```
 # Intel Realsense SDK
 **DISCONNECT the camera**
 Guide installation of intelrealsense in Jetson Orin Nano Developer kit. 
