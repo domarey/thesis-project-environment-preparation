@@ -1,4 +1,4 @@
-# ROS
+# Install ros
 Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
 
 # Create a catkin workspace
