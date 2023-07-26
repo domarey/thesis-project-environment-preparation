@@ -95,7 +95,7 @@ And: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc
 ```
 sudo make install
 ```
-To uninstall simply run in the /build foder:
+To uninstall simply run in the `/build` foder:
 ```
 sudo make uninstall
 ```
