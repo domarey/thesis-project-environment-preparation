@@ -91,6 +91,14 @@ sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
 And: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
 
 2. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
+3. Install systme-wide (needed to use OpenPose API outside its own folder):
+```
+sudo make install
+```
+To uninstall simply run in the /build foder:
+```
+sudo make uninstall
+```
 
 # tensorflow for Jetson
 Create environment:
