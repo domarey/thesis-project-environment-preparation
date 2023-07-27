@@ -31,10 +31,11 @@ Follow guide: http://wiki.ros.org/noetic/Installation/Ubuntu
    ```
    sudo apt-get install ros-noetic-sound-play ros-$ROS_DISTRO-speech-recognition-msgs ros-$ROS_DISTRO-catkin-virtualenv
    ```
-3. Build from **source**: https://index.ros.org/p/respeaker_ros/
+3a. Build from **source**: https://index.ros.org/p/respeaker_ros/
 
    If you have trouble because of the `catkin_virtualenv`, make the `respeaker_ros` package dependent (compile it as the last package) to the other packages modifying the `CMakeLists.txt` and the `package.xml`
-   (If installed the package using apt-get and there are problems try: change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`)
+   
+3b. If installed the package using apt-get and there are problems try: change the paths in the 2 files in `/home/ppm/catkin_ws/devel/lib/respeaker_ros` (named `speech_to_text.py` and `respeaker_node.py`)to point the python executable and the correct files under `/src`)
 # intel realsense-ros
 ```
 sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
