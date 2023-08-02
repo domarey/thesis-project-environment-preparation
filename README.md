@@ -96,8 +96,12 @@ sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
 And: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_1_prerequisites.html
 
 2. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
-
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DPYTHON_LIBRARY= /usr/lib/x86_64-linux-gnu/libpython3.8.so
+```
+cmake ../ -DBUILD_PYTHON=ON -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.8.so -DUSECUDNN=OFF
+```
+```
+make -j`nproc`
+```
 4. Install system-wide (needed to use OpenPose API outside its own folder):
 ```
 sudo make install
