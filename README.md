@@ -99,7 +99,7 @@ And: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc
 
 2. Then follow the guide: https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_installation_0_index.html
 ```
-cmake ../ -DUSE_CUDNN=OFF -DDOWNLOAD_BODY_25_MODEL=ON -DBUILD_PYTHON=ON -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.8.so 
+cmake ../ -DUSE_CUDNN=OFF -DDOWNLOAD_BODY_COCO_MODEL=ON -DBUILD_PYTHON=ON -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.8.so 
 ```
 ```
 make -j`nproc`
