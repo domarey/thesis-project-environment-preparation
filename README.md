@@ -1,4 +1,7 @@
 # NVIDIA Drivers
+1. Prerequisites:
+     - gcc, make, dkms
+2. Disable Nouveau kernel: https://askubuntu.com/questions/841876/how-to-disable-nouveau-kernel-driver
 For the procedure refer to (the driver should be 535): 
 
 https://askubuntu.com/questions/1129516/black-screen-at-boot-after-nvidia-driver-installation-on-ubuntu-18-04-2-lts
