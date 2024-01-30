@@ -1,0 +1,22 @@
+#!/bin/bash
+if nmcli radio  wifi | grep -q 'disabled'
+then
+  nmcli radio wifi on
+fi
+if iwgetid -r| grep -q 'KOMPAI v3'
+then
+  echo "Already connected to 'KOMPAI v3'"
+else
+  nmcli con up id 'KOMPAI v3'
+fi
+if nmcli con show --active| grep -q 'lio-internal'
+then
+  nmcli con down id 'lio-internal'
+  echo "Lio-internal disconnected"
+fi
+export ROS_IP=192.168.1.40
+export ROS_MASTER_URI=http://192.168.1.2:11311	#Jetson's ip
+
+#CURRENT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+#echo 'Sourcing ' "$CURRENT_DIR/activate_catkin_ws"
+#source "$CURRENT_DIR/activate_catkin_ws"

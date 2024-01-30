@@ -1,0 +1,5 @@
+#!/bin/bash
+source ~/catkin_ws/devel/setup.bash
+echo "catkin workspace sourced"
+source ~/python_envs/openpose-env/bin/activate
+echo "openpose environment activated"
