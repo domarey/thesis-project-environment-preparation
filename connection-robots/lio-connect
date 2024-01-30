@@ -15,7 +15,7 @@ then
 else
   nmcli con up id 'lio-internal'
 fi
-export ROS_MASTER_URI=http://192.168.100.110:11311
+export ROS_MASTER_URI=
 IP_VAR=$(hostname -I | awk '{print $3}')
 export ROS_IP="$IP_VAR"
 

@@ -13,9 +13,9 @@ if nmcli con show --active| grep -q 'lio-internal'
 then
   nmcli con down id 'lio-internal'
 fi
-export ROS_MASTER_URI=http://192.168.100.25:11311
+export ROS_MASTER_URI=
 #IP_VAR=$(hostname -I | awk '{print $3}')
-IP_VAR=192.168.100.25
+IP_VAR=
 export ROS_IP="$IP_VAR"
 
 #CURRENT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
